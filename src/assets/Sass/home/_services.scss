@@ -1,0 +1,27 @@
+.container{
+    .row{
+        .custom-grid{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto auto;
+            section{
+                text-align: center;
+                background-color: white;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 25px;
+                box-shadow: 2px 2px 31px #d7e7f7;
+                filter: grayscale(100%);
+
+            }
+            section:hover{
+                filter: grayscale(0);
+            }
+        }
+
+    }
+    .step{
+        margin: 10px 90px 10px 0;
+        
+    }
+}

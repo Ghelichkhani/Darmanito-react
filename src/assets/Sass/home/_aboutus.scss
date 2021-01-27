@@ -1,0 +1,22 @@
+.container{
+    .row{
+        .about-us-items{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            img{
+                background-color: white;
+                padding: 20px;
+                border-radius: 25px;
+                box-shadow: 2px 2px 31px #d7e7f7;
+            }
+
+
+
+            section {
+                text-align: center;
+            }
+        }
+    }
+}

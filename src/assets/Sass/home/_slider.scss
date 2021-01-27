@@ -1,0 +1,24 @@
+.slider{
+    h1{
+        color: $text_dark_blue;
+    }
+    p{
+        margin: 15px 0;
+    }
+    button{
+    width: 200px;
+    margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+.slider{
+    button{
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+}
+}
+@media only screen and (min-width: 600px){
+
+}

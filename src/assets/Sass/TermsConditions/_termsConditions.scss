@@ -1,0 +1,52 @@
+.TermsConditions-Content {
+  h5 {
+    color: $text_dark_blue;
+  }
+
+  .services {
+    section {
+      text-align: center;
+      background-color: white;
+
+      border-radius: 25px;
+      box-shadow: 2px 2px 31px #c3d5e7;
+      display: flex;
+      justify-content: space-between;
+      p {
+        padding: 52px;
+      }
+      .custom-padding {
+        padding: 62px 52px;
+      }
+    }
+
+    section {
+      p:hover {
+        color: blue;
+      }
+    }
+  }
+}
+@media all and (max-width: 600px) {
+  .container {
+    .TermsConditions-Content {
+      h5 {
+        font-size: 15px;
+      }
+      .services {
+        section {
+        //   padding: 15px;
+        //   margin-top: 25px;
+        margin:12px 0;
+        p {
+            padding: 35px !important;
+          }
+          .custom-padding {
+            padding: 46px 31px !important;
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.container-fluid{
+    .container{
+        .row{
+            .footer-content{
+                margin: 25px 0;
+                p{
+                    font-size: 10px;
+                }
+                h4{
+                    font-size: 20px;
+                }
+            }
+            .social-media-icon{
+                img{
+                    margin: 0 10px;   
+                }
+            }
+
+            .coltwo,.colthree,.colfour{
+                
+                p{
+                    margin: 13px 0 !important;
+                    font-size: 13px;
+                }
+                img{
+                    margin: 15px 5px;
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .dis-none{
+        display: none;
+    }
+    .social-media-icon{
+        text-align: center;
+    }
+}

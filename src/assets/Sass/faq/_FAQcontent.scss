@@ -1,0 +1,55 @@
+.container{
+    .FAQ-Content{
+        h5{
+            color: $text_dark_blue;
+        }
+
+        .services{
+            section{
+
+                img{
+                    padding: 35px;
+                    
+                }
+                text-align: center;
+                background-color: white;
+
+                border-radius: 25px;
+                box-shadow: 2px 2px 31px #c3d5e7;
+                filter: grayscale(100%);
+            }
+
+            section:hover{
+                filter: grayscale(0);
+            }
+        }
+    }
+}
+@media all and (max-width: 600px){
+    .container{
+        .FAQ-Content{
+            h5{
+               font-size: 15px;
+            }
+            .collapse-group{
+                h5{
+                    font-size: 14px !important;
+                }
+                p{
+                    font-size: 15px !important;
+                }
+            }
+            .services{
+                section{
+                    padding: 15px;
+                    margin-top: 25px;
+                    img{
+                        padding: 15px;
+                        
+                    }
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.heading {
+    .row {
+      text-align: center;
+      background-color: $bg_medium_blue;
+      section {
+        padding: 50px 0;
+        @include flex;
+        h4 {
+          color: $text_white;
+        }
+      }
+    }
+  }

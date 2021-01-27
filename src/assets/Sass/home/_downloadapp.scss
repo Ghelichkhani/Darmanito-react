@@ -1,0 +1,102 @@
+.container-fluid {
+    .custom-row {
+      background-color: $bg_medium_blue;
+  
+      .section-right {
+        //     margin-right: 90px;
+        //     margin-top: 250px;
+        h2,
+        p {
+          color: $text_white;
+        }
+        .custom-input {
+          border-radius: 10px;
+          border: none;
+          width: 60%;
+          padding: 10px 20px;
+          background-color: whitesmoke;
+        }
+        .send {
+          color: white;
+          background-color: #1894ff;
+          padding: 5px 10px;
+          border: none;
+          border-radius: 5px;
+          position: absolute;
+          top: 5px;
+          left: 305px;
+        }
+        .download-app-btn {
+          margin-top: 20px;
+          a{
+              margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .custom-row {
+      height: 815px !important;
+    }
+    section {
+      .section-right {
+        text-align: center !important;
+        margin-top: 35px !important;
+      }
+      .btn-display {
+        display: none;
+      }
+      .mobile {
+        margin-top: 25px !important;
+      }
+      .send {
+        left: 5px !important;
+        top: 18px !important;
+      }
+      .custom-input {
+        width: 100% !important;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .custom-row {
+      height: 600px !important;
+  
+      .section-right {
+        margin-right: 90px;
+        margin-top: 250px;
+        h2,
+        p {
+          color: $text_white;
+        }
+        .custom-input {
+          border-radius: 10px;
+          border: none;
+          width: 60%;
+          padding: 10px 20px;
+          background-color: whitesmoke;
+        }
+        .send {
+          color: white;
+          background-color: #1894ff;
+          padding: 5px 10px;
+          border: none;
+          border-radius: 5px;
+          position: absolute;
+          top: 18px !important;
+          left: 305px;
+        }
+        .download-app-btn {
+          margin-top: 20px;
+        }
+      }
+    }
+    .mobile {
+      margin-top: 77px;
+      margin-right: 90px;
+    }
+  }
+  

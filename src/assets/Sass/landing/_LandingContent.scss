@@ -1,0 +1,151 @@
+.container {
+  margin-top: 20px;
+  margin-bottom: 80px;
+    .statistics {
+      section {
+        h5 {
+          color: $text_white;
+        }
+        p {
+          color: $text_white;
+        }
+      }
+    }
+    .row {
+      .card-body {
+        h5 {
+          color: $text_medium_blue;
+        }
+        p {
+          font-size: 10px;
+        }
+      }
+      .custom-col-1 {
+        height: 350px;
+        .drug-store {
+          i {
+            color: $text_green;
+          }
+          .blur1 {
+            position: absolute;
+            top: 25px;
+            right: 40px;
+            filter: blur(0.8px);
+          }
+          .blur2 {
+            position: absolute;
+            top: 45px;
+            right: 115px;
+            filter: blur(1.5px);
+          }
+          .your-drug-store {
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 0 15px #aaa;
+            padding: 20px 10px;
+            border-radius: 12px;
+  
+            span {
+              color: $text_white;
+              background-color: $text_medium_blue;
+              font-size: 10px;
+              position: absolute;
+              top: 6%;
+              left: 4%;
+              padding: 6px 12px;
+              border-radius: 6px;
+            }
+          }
+        }
+      }
+      .landing-content {
+        h3 {
+          font-size: 42px;
+          margin: 25px 0px 10px 0px;
+          color: $text_medium_blue;
+        }
+        p {
+          line-height: 40px;
+        }
+        .custom-landing-input {
+          border-radius: 10px;
+          border: none;
+          width: 100%;
+          padding: 10px 20px;
+          background-color: whitesmoke;
+        }
+        .custom-landing-send {
+          color: white;
+          background-color: #1894ff;
+          padding: 5px 10px;
+          border: none;
+          border-radius: 5px;
+          position: absolute;
+          top: 221px;
+          left: 20px;
+        }
+      }
+    }
+  }
+  @media all and (max-width: 600px) {
+    .statistics {
+      margin-right: 40px;
+    }
+    .row {
+      .custom-col-2 {
+        top: -150px;
+        order: 2;
+      }
+      .custom-col-1 {
+        order: 1 !important;
+      }
+      section {
+        .landing-content {
+          h3 {
+            font-size: 35px !important;
+          }
+          .custom-landing-send {
+            top: 342px !important;
+          }
+        }
+        .drug-store {
+          .blur0 {
+            h5 {
+              font-size: 19px;
+            }
+            P {
+              font-size: 13px;
+            }
+            top: 45px;
+          }
+  
+          .dis-none {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+  @media all and (min-width: 600px) {
+    .mt-md-6-custom {
+      margin-top: 12rem;
+    }
+    .row {
+      section {
+        .drug-store {
+          .your-drug-store {
+            section {
+              display: inline-grid;
+            }
+            .dis-block {
+              display: flex !important;
+              justify-content: space-evenly !important;
+              align-items: center !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  
