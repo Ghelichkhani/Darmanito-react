@@ -3,6 +3,7 @@ import pharmacy from '../../assets/img/pharmacy.svg';
 import store from '../../assets/img/store.svg';
 import doctor from '../../assets/img/doctor.svg';
 import calender from '../../assets/img/cal.svg';
+import Post from '../Faq/post.js';
 
 export default function FAQcontent() {
     return (
@@ -34,7 +35,11 @@ export default function FAQcontent() {
             </section>
             
             <section className="col-12 collapse-group">
-              <h5 data-toggle="collapse" data-target="#collapse1" className="my-5">
+         
+                <Post/>
+                <Post/>
+                <Post/>
+              {/* <h5 data-toggle="collapse" data-target="#collapse1" className="my-5">
                 هزینه ای درمانیتو برای پیدا کردن دارو پیدا میکنه ؟
               </h5>
               <section className="collapse" id="collapse1">
@@ -44,6 +49,7 @@ export default function FAQcontent() {
                   </p>
                 </section>
               </section>
+              
               <h5 data-toggle="collapse" data-target="#collapse2" className="my-5">
                 هزینه ای درمانیتو برای پیدا کردن دارو پیدا میکنه ؟
               </h5>
@@ -54,6 +60,7 @@ export default function FAQcontent() {
                   </p>
                 </section>
               </section>
+
               <h5 data-toggle="collapse" data-target="#collapse3" className="my-5">
                 هزینه ای درمانیتو برای پیدا کردن دارو پیدا میکنه ؟
               </h5>
@@ -63,7 +70,8 @@ export default function FAQcontent() {
                     خیر هیچ هزینه ای دریافت نمیشه
                   </p>
                 </section>
-              </section>
+              </section> */}
+
             </section>
           </section>
         </section>
